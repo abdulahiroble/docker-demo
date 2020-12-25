@@ -1,10 +1,10 @@
 {
   "name": "docker-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/abdulahiroble/docker-demo/issues"
   },
-  "homepage": "https://github.com/abdulahiroble/docker-demo#readme"
+  "homepage": "https://github.com/abdulahiroble/docker-demo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
